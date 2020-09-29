@@ -1,0 +1,129 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.home{
+    background-color: $color-light-grey ;
+}
+
+.hero{
+    padding-top: 9rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-bottom: 10rem;
+    width: 100%;
+
+    @include respond(min-nav){
+        padding: 0;
+        display: block;
+    }
+
+    &__image{
+        width: 100%;
+        text-align: center;
+        .illustration{
+            width: 100%;
+        }
+
+        @include respond(min-nav){
+            margin-top: -5rem;
+        }
+    }
+
+    &__content{
+        padding: 0 2rem;
+        margin: auto;
+        text-align: left;
+
+        @include respond(min-nav){
+            margin-top: -5rem;
+        }
+
+        .heading-1{
+            margin-left: -1rem;
+            margin-bottom: 0;
+            color:  $color-blue-dark;
+        }
+
+        .heading-2{
+            text-transform: unset;
+            margin-bottom: 2rem;
+        }
+
+        .paragraph-1{
+            max-width: 40ch;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &-social{
+        display: flex;
+        align-items: center;
+
+        &__link:visited, &__link:link{
+            &:not(:first-child){
+                margin-left: 2rem;
+            }
+        }
+
+        &__link:hover &__logo{
+            fill: $color-red;
+            transform: scale(1.11) translateY(-.2rem)
+        }
+
+        &__logo{
+            width: 3rem;
+            fill: $color-dark-grey;
+            transition: .2s ease-in-out;
+        }
+    }
+}
+
+.mid-section{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: $color-blue-dark;
+    padding: 2rem;
+    position: relative;
+
+    &__item{
+        height: 5rem;
+    }
+
+    &__item.center{
+        width: 6rem;
+        position: absolute;
+        left: 50%;
+        top:20%;
+        transform:translate(-50%, -80%); 
+        // margin-top: -2%;
+    }
+
+}
+.post{
+    padding: 9rem 0 20rem;
+    background-color: $color-posts-bg;
+
+    .heading-2{
+        text-align: center;
+        color: white;
+
+        margin-bottom: 5rem;
+    }
+
+    .search{
+        text-align: center;
+        margin-bottom: 8rem;
+
+        &__input{
+            padding: 1rem;
+            width: 40rem;
+            font-size: 2.5rem;
+        }
+    }
+
+    &-item{
+        margin-bottom: 5rem;
+    }
+}

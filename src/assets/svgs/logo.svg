@@ -1,0 +1,9 @@
+<svg viewBox="0 0 57.499 58.891">
+  <defs>  
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#286b9e"/>
+      <stop offset="1" stop-color="#14364f"/>
+    </linearGradient>
+  </defs>
+  <path id="logo" d="M50.86,74H43.029V66.431H39.052V56.742H28.146L43.029,23.256V66.43H50.86V74ZM7.71,74H.393V66.431H-2.5V21H.393V66.43H7.71V74ZM55,66.43H50.86V21H37.433l2.551-5.891H50.86V21H55Zm-42.447,0H7.71V23.256L22.478,56.742H12.552v9.687Zm15.131-8.645H22.937l-.46-1.042h5.669l-.463,1.042Zm-1.9-9.888v0L13.715,21H37.433L25.786,47.894ZM13.715,21H.393V15.109H11.072L13.714,21Z" transform="translate(2.5 -15.109)" fill="url(#linear-gradient)"/>
+</svg>

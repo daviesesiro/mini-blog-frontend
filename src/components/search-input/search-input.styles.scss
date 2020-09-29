@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.search{
+
+    &__input{
+        font-size: 1.6rem;
+        padding-left: .5rem;            
+        border-radius: 5px;
+        border: 2px solid $color-blue;
+
+
+        &::placeholder{
+            color: $color-dark-grey;
+        }
+    }
+}

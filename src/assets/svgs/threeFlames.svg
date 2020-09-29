@@ -1,0 +1,12 @@
+<svg  width="73.769" height="107.188" viewBox="0 0 73.769 107.188">
+<defs
+><style>
+  .a{fill:url(#a);}
+</style>
+<linearGradient id="a" x1="0.588" y1="0.079" x2="0.5" y2="1" gradientUnits="objectBoundingBox"> 
+<stop offset="0" stop-color="#ee2b1c"/>
+<stop offset="1" stop-color="#6c3838"/>
+</linearGradient>
+</defs>
+<path class="a" d="M-28.027.006s13.653,63.67,24.411,63.67C-2.29,63.676,5,.006,5,.006L15.259,62.417,43.193.006S46.213,105.7,5,105.954-28.027.006-28.027.006Z" 
+transform="matrix(1, -0.017, 0.017, 1, 28.684, 0.749)"/></svg>

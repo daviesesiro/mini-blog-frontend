@@ -1,0 +1,37 @@
+@import '../../styles/variables';
+.post-item{
+    padding: 2rem;
+    min-width: 35rem;
+    max-width: 80rem;
+    width: 60vw;
+    margin: 0 auto;
+    background-color: rgba($color-blue-dark, 0.5);
+    border-radius: 4px;
+    box-shadow: 0 .4rem .8rem rgba(black, 0.2);
+    transition: background .4s ease-out, transform .3s ease-in;
+
+    &:hover, &:active{
+        background-color: rgba($color-blue-dark, 0.8);
+        box-shadow: 0 .4rem 1rem rgba(black, 0.5);
+        transform: translateY(-.5rem) scale(1.008);
+    }
+
+    &__title:link, &__title:visited{
+        display: inline-block;
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: $color-light-grey;
+        margin-bottom: 2rem;
+    }
+
+    &__description{
+
+    }
+
+    &__date{
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        font-weight: 800;
+        color: darken($color-red, 20);
+    }
+}
