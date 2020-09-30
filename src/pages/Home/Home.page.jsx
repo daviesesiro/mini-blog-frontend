@@ -2,7 +2,6 @@ import React from "react";
 
 import { Hero as HeroSection } from "./Hero.section";
 import { Mid as MidSection } from "./Mid.section";
-import { SearchInput } from "../../components/search-input/search-input.component";
 import { PostItem } from "../../components/post-item/post-item.component";
 
 import "./Home.styles.scss";
@@ -13,13 +12,12 @@ export const HomePage = () => {
       <main className="home container">
         <HeroSection />
         <MidSection />
-        <section className="post container">
+        <section id="posts" className="post container">
           <h2 className="heading-2">
-            <span className="decor">Posts</span>
+            Lastest
+            <span className="decor"> Posts</span>
           </h2>
 
-          <SearchInput placeholder="Search Me!!" />
-          <div className="posts_count">2</div>
           <div className="post-items">
             <PostItem
               title="Getting Started with Html"

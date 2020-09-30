@@ -10,7 +10,7 @@ export const Mid = () => {
       <ReactLogo className="mid-section__item" />
       <NodeLogo className="mid-section__item" />
 
-      <ThreeFlames class="mid-section__item center" />
+      <ThreeFlames className="mid-section__item center" />
 
       <ReactLogo className="mid-section__item" />
       <NodeLogo className="mid-section__item" />

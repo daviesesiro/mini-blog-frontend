@@ -1,0 +1,20 @@
+.single-post {
+  margin: 5rem auto 25rem;
+  max-width: 80rem;
+}
+.single-post__date {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.single-post__image {
+  margin-bottom: 3rem;
+}
+.single-post__image img {
+  width: 100%;
+}
+.single-post__content {
+  font-size: 2rem;
+  line-height: 170%;
+}

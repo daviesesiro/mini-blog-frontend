@@ -4,52 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <script src="./dist/main.js" defer></script>
+    <title>Drag and drop</title>
 </head>
 
 <body>
-    <section>
-
-    </section>
-    <section class="content">
-        <div class="left">
-            <img src="./images/yellow.jpg" alt="yellow" class="yellow anim">
-            <p class="">I have no clue of what I'mdoing here LOL!</p>
-        </div>
-        <div class="right anim">
-            <div>
-                <h2>Get Yellow</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque autem expedita eos maxime voluptate
-                    corrupti numquam eveniet ipsum aliquam et, repellat sit quas, nisi perspiciatis rem vero ducimus,
-                    labore
-                    doloremque.</p>
-            </div>
-        </div>
-
-    </section>
-
-    <script>
-
-        const images = document.querySelectorAll('.anim');
-
-        const observer = new IntersectionObserver((entries) => {
-            console.log(entries)
-            entries.forEach(entry => {
-                if (entry.intersectionRatio > 0) {
-                    console.log(entry)
-                    entry.target.style.animation = ` 2s forwards cubic-bezier(.58,-0.49,.5,2.13) anim1`;
-
-                } else {
-                    entry.target.style.animation = `none`;
-                }
-
-            })
-        })
-        images.forEach(image => observer.observe(image))
-
-    </script>
-
+    <div class="empty">
+        <div class="fill" draggable="true"></div>
+    </div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
 </body>
 
 </html>

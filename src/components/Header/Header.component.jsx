@@ -19,6 +19,7 @@ export const Header = () => {
     if (isNavCollapsed) return setIsNavCollapsed(false);
     setIsNavCollapsed(true);
   };
+
   return (
     <header className="header container">
       <div className="header__left">
@@ -28,12 +29,12 @@ export const Header = () => {
         <SearchInput placeholder="Search Me" />
         <ul className="nav-list">
           <li className="nav-list__item">
-            <NavLink className="nav-list__link" to="#">
+            <NavLink className="nav-list__link" to="/">
               Home
             </NavLink>
           </li>
           <li className="nav-list__item">
-            <NavLink className="nav-list__link" to="#">
+            <NavLink className="nav-list__link" to="/p">
               Posts
             </NavLink>
           </li>
