@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mini-blog-frontend/static/css/main.80fe36c6.chunk.css",
-    "main.js": "/mini-blog-frontend/static/js/main.f26c49ab.chunk.js",
-    "main.js.map": "/mini-blog-frontend/static/js/main.f26c49ab.chunk.js.map",
+    "main.css": "/mini-blog-frontend/static/css/main.ce5d776a.chunk.css",
+    "main.js": "/mini-blog-frontend/static/js/main.3da84e93.chunk.js",
+    "main.js.map": "/mini-blog-frontend/static/js/main.3da84e93.chunk.js.map",
     "runtime-main.js": "/mini-blog-frontend/static/js/runtime-main.7d79506a.js",
     "runtime-main.js.map": "/mini-blog-frontend/static/js/runtime-main.7d79506a.js.map",
-    "static/js/2.482e3cfe.chunk.js": "/mini-blog-frontend/static/js/2.482e3cfe.chunk.js",
-    "static/js/2.482e3cfe.chunk.js.map": "/mini-blog-frontend/static/js/2.482e3cfe.chunk.js.map",
+    "static/js/2.559cc8c8.chunk.js": "/mini-blog-frontend/static/js/2.559cc8c8.chunk.js",
+    "static/js/2.559cc8c8.chunk.js.map": "/mini-blog-frontend/static/js/2.559cc8c8.chunk.js.map",
     "index.html": "/mini-blog-frontend/index.html",
-    "precache-manifest.e066f367a605d1fee44e2489e0dabfad.js": "/mini-blog-frontend/precache-manifest.e066f367a605d1fee44e2489e0dabfad.js",
+    "precache-manifest.b6e2f7b6b00e4acf726a2096ea95b9c7.js": "/mini-blog-frontend/precache-manifest.b6e2f7b6b00e4acf726a2096ea95b9c7.js",
     "service-worker.js": "/mini-blog-frontend/service-worker.js",
-    "static/css/main.80fe36c6.chunk.css.map": "/mini-blog-frontend/static/css/main.80fe36c6.chunk.css.map",
-    "static/js/2.482e3cfe.chunk.js.LICENSE.txt": "/mini-blog-frontend/static/js/2.482e3cfe.chunk.js.LICENSE.txt",
+    "static/css/main.ce5d776a.chunk.css.map": "/mini-blog-frontend/static/css/main.ce5d776a.chunk.css.map",
+    "static/js/2.559cc8c8.chunk.js.LICENSE.txt": "/mini-blog-frontend/static/js/2.559cc8c8.chunk.js.LICENSE.txt",
     "static/media/footer-logo.03a3f180.svg": "/mini-blog-frontend/static/media/footer-logo.03a3f180.svg",
     "static/media/Footer.styles.scss": "/mini-blog-frontend/static/media/footerFlame.df576ca9.svg",
     "static/media/illustration.3fc95ca2.svg": "/mini-blog-frontend/static/media/illustration.3fc95ca2.svg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7d79506a.js",
-    "static/js/2.482e3cfe.chunk.js",
-    "static/css/main.80fe36c6.chunk.css",
-    "static/js/main.f26c49ab.chunk.js"
+    "static/js/2.559cc8c8.chunk.js",
+    "static/css/main.ce5d776a.chunk.css",
+    "static/js/main.3da84e93.chunk.js"
   ]
 }
