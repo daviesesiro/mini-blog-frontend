@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // external libraries
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 // my components
 import { ReactComponent as Logo } from "../../assets/svgs/logo.svg";
@@ -23,7 +23,9 @@ export const Header = () => {
   return (
     <header className="header container">
       <div className="header__left">
-        <Logo className="header-logo" />
+        <Link to="/">
+          <Logo className="header-logo" />
+        </Link>
       </div>
       <div className={`header__right ${isNavCollapsed ? "show" : ""}`}>
         <SearchInput placeholder="Search Me" />

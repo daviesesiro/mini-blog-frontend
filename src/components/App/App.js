@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 //external libraries
 import { Route } from "react-router-dom";
@@ -9,6 +9,8 @@ import { PostsPage } from "../../pages/Posts/Posts.page";
 import { SinglePost } from "../../pages/SinglePosts/SinglePost.page";
 import { Footer } from "../Footer/Footer.component";
 import { Header } from "../Header/Header.component";
+
+// import Axios from "axios";
 
 // styles
 import "./App.styles.scss";

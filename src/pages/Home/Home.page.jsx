@@ -1,12 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { Hero as HeroSection } from "./Hero.section";
 import { Mid as MidSection } from "./Mid.section";
 import { PostItem } from "../../components/post-item/post-item.component";
 
 import "./Home.styles.scss";
+import Axios from "axios";
 
 export const HomePage = () => {
+  const [latestPost, setLatestPost] = useState([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    (async () => {
+      try {
+        const response = await Axios.get(
+          "https://icanblog.herokuapp.com/posts?take=3"
+        );
+        console.log(response.data.data.posts);
+        setLatestPost(response.data.data.posts);
+        setLoading(false);
+      } catch (e) {
+        console.log(e);
+      }
+    })();
+  }, []);
   return (
     <>
       <main className="home container">
@@ -19,24 +36,17 @@ export const HomePage = () => {
           </h2>
 
           <div className="post-items">
-            <PostItem
-              title="Getting Started with Html"
-              description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-                          voluptatum hic iusto. Iusto expedita, maiores laudantium temporibus ut
-                          eligendi autem, voluptas quos accusantium odio ex id voluptatem hic
-                          dicta eum?"
-              date="2020 Nov 12"
-            />
-          </div>
-          <div className="post-items">
-            <PostItem
-              title="Getting Started with Html"
-              description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
-                          voluptatum hic iusto. Iusto expedita, maiores laudantium temporibus ut
-                          eligendi autem, voluptas quos accusantium odio ex id voluptatem hic
-                          dicta eum?"
-              date="2020 Nov 12"
-            />
+            {!loading
+              ? latestPost.map(({ title, id, createdAt, content }) => (
+                  <PostItem
+                    key={id}
+                    title={title}
+                    date={createdAt}
+                    description={content}
+                    id={id}
+                  />
+                ))
+              : null}
           </div>
         </section>
         {/* <Mid/> */}

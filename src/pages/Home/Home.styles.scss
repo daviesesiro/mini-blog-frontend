@@ -8,6 +8,7 @@
 .hero{
     padding-top: 9rem;
     display: grid;
+    overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-bottom: 10rem;
     width: 100%;
@@ -46,7 +47,9 @@
 
         .heading-2{
             text-transform: unset;
-            margin-bottom: 2rem;
+            margin-bottom: 1.8rem;
+            font-weight: 800;
+            font-size: 3rem;
         }
 
         .paragraph-1{
