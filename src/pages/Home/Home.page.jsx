@@ -16,7 +16,6 @@ export const HomePage = () => {
         const response = await Axios.get(
           "https://icanblog.herokuapp.com/posts?take=3"
         );
-        console.log(response.data.data.posts);
         setLatestPost(response.data.data.posts);
         setLoading(false);
       } catch (e) {

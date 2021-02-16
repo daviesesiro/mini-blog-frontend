@@ -79,7 +79,7 @@ export const Hero = () => {
           </a>
           <a
             className="hero-social__link"
-            href="http://github.com/webcrawler124"
+            href="http://github.com/daviesesiro"
             target="_blank"
             rel="noopener noreferrer"
           >
