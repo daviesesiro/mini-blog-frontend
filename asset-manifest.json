@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mini-blog-frontend/static/css/main.ce5d776a.chunk.css",
-    "main.js": "/mini-blog-frontend/static/js/main.2974ab21.chunk.js",
-    "main.js.map": "/mini-blog-frontend/static/js/main.2974ab21.chunk.js.map",
+    "main.js": "/mini-blog-frontend/static/js/main.eecffe94.chunk.js",
+    "main.js.map": "/mini-blog-frontend/static/js/main.eecffe94.chunk.js.map",
     "runtime-main.js": "/mini-blog-frontend/static/js/runtime-main.7d79506a.js",
     "runtime-main.js.map": "/mini-blog-frontend/static/js/runtime-main.7d79506a.js.map",
     "static/js/2.559cc8c8.chunk.js": "/mini-blog-frontend/static/js/2.559cc8c8.chunk.js",
     "static/js/2.559cc8c8.chunk.js.map": "/mini-blog-frontend/static/js/2.559cc8c8.chunk.js.map",
     "index.html": "/mini-blog-frontend/index.html",
-    "precache-manifest.3ad09912cec2d22fbb3269474c3f3001.js": "/mini-blog-frontend/precache-manifest.3ad09912cec2d22fbb3269474c3f3001.js",
+    "precache-manifest.af38db13349e13e820449e60b31f122e.js": "/mini-blog-frontend/precache-manifest.af38db13349e13e820449e60b31f122e.js",
     "service-worker.js": "/mini-blog-frontend/service-worker.js",
     "static/css/main.ce5d776a.chunk.css.map": "/mini-blog-frontend/static/css/main.ce5d776a.chunk.css.map",
     "static/js/2.559cc8c8.chunk.js.LICENSE.txt": "/mini-blog-frontend/static/js/2.559cc8c8.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.7d79506a.js",
     "static/js/2.559cc8c8.chunk.js",
     "static/css/main.ce5d776a.chunk.css",
-    "static/js/main.2974ab21.chunk.js"
+    "static/js/main.eecffe94.chunk.js"
   ]
 }
